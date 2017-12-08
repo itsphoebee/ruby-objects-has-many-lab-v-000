@@ -14,7 +14,7 @@ class Artist
   end
 
   def songs       #why did i need a method called songs if instance variable @songs was
-    @songs        #created in initialize
+    @songs        #created in initialize?
   end
 
   def add_song_by_name(song)
