@@ -11,5 +11,6 @@ def artist_name
 else
   self.artist.name
 end
+end
 
 end
