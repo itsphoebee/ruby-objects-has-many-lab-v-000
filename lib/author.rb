@@ -7,7 +7,7 @@ attr_accessor :name
   end
 
   def add_post(post)
-    post.artist = self.class
+    post.artist = self
     @posts << post
   end
 end
