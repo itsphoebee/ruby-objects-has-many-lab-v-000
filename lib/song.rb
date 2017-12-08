@@ -10,6 +10,7 @@ def artist_name                 #Q: when would a song not have an artist?
     self.artist.name
   else
     nil
+  end
 end
 
 end
