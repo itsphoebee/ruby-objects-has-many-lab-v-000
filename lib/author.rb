@@ -12,7 +12,7 @@ attr_accessor :name
   end
 
   def add_post(post)
-    post.artist = self
+    post.author= self
     @posts << post
     @@post_count += 1
   end
