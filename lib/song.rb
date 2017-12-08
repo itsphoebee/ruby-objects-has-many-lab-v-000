@@ -6,11 +6,8 @@ def initialize(name)
 end
 
 def artist_name
-  if self.artist.name == true
-    puts self.artist.name
-  else
-    nil
-  end
+  self.artist.name
+
 end
 
 end
