@@ -6,7 +6,8 @@ def initialize(name)
 end
 
 def artist_name
-  self.artist == nil ? nil : self.artist.name
+  self.artist ||=nil
+  self.artist.name
 
 end
 
