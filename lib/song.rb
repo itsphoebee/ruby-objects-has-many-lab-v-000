@@ -6,7 +6,7 @@ def initialize(name)
 end
 
 def artist_name                 #Q: when would a song not have an artist?
-  self.artist
+  self.artist.name
 end
 
 end
