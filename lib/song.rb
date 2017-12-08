@@ -5,9 +5,9 @@ def initialize(name)
   @name = name
 end
 
-def artist_name                 #Q: when would a song not have an artist?
+def artist_name
   if self.artist.name == true
-    self.artist.name
+    puts self.artist.name
   else
     nil
   end
