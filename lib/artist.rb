@@ -17,6 +17,10 @@ class Artist
     @songs        #created in initialize?
   end
 
+  def artist
+    self
+  end
+  
   def add_song_by_name(song)
     song = Song.new
     @songs << song
