@@ -10,7 +10,7 @@ def artist_name
     self.artist.name
   else
     nil
-
+  end
 end
 
 end
