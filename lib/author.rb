@@ -14,5 +14,6 @@ attr_accessor :name
   def add_post(post)
     post.artist = self
     @posts << post
+    @@post_count += 1
   end
 end
