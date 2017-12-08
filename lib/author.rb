@@ -7,7 +7,7 @@ attr_accessor :name
   end
 
   def post
-    @post
+    @posts
   end
   
   def add_post(post)
