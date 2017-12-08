@@ -13,8 +13,8 @@ class Artist
     @@song_count += 1
   end
 
-  def songs
-    @songs
+  def songs       #why did i need a method called songs if instance variable @songs was
+    @songs        #created in initialize
   end
 
   def add_song_by_name(song)
