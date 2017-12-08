@@ -6,11 +6,7 @@ def initialize(name)
 end
 
 def artist_name                 #Q: when would a song not have an artist?
-  if self.artist.name == false
-    return nil
-  else
-    return self.artist.name
-  end
+  self.artist.name
 end
 
 end
